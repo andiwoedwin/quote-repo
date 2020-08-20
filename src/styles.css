@@ -1,0 +1,11 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+/* You can add global styles to this file, and also import other style files */
+/* h1{
+    color: blue;
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+} */
+body{
+    background-color: lightblue;
+}
