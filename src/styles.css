@@ -8,4 +8,9 @@
 } */
 body{
     background-color: lightblue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/Taraji02-17-768x432.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: lightgoldenrodyellow;
+    background-position: center;
 }
