@@ -5,6 +5,12 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/ocean.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    color: lightgoldenrodyellow;
     background-position: center;
+    color: beige;
+    /* height: 70vh;
+    width: 100px; */
 }
+/* h1{
+    color: black;
+    text-align: center;
+} */
