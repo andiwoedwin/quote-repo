@@ -26,7 +26,7 @@ describe('AppComponent', () => {
     expect(app.title).toEqual('Goals');
   });
 
-  it('should render title', () => {
+  it('should render title', () => {z
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
