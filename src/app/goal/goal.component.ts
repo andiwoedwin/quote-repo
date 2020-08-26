@@ -9,7 +9,7 @@ import { Goal } from '../goal';
 export class GoalComponent implements OnInit {
  
   goals: Goal[] = [
-    new Goal(1, 'Watch finding Nemo', 'Find an online version and watch merlin find his son',new Date(2020,3,14)),
+    new Goal(1, 'Life Quote', 'The bad thing is that time flies, but the good thing is that you are the pilot you can adjust your course','Andiwo','Mornica',new Date(2020,3,14)),
   ];
   
   addNewGoal(goal){
@@ -28,7 +28,7 @@ export class GoalComponent implements OnInit {
   }
   deleteGoal(isComplete, index){
     if (isComplete) {
-      let toDelete = confirm(`Are you sure you want to delete ${this.goals[index].name}?`)
+      let toDelete = confirm(`press OK to continue with deleting ${this.goals[index].name}?`)
 
       if (toDelete){
         this.goals.splice(index,1)
