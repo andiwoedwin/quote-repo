@@ -43,6 +43,8 @@ If you dont have this requirements you could use the link above to help with the
 
 https://andiwoedwin.github.io/quote-repo/
 
+https://andiwoedwin.github.io/quote-repo/
+
 ## SETUP/INSTALLATION.
 To work With this cli {follow the below instructions for set up.}
 
