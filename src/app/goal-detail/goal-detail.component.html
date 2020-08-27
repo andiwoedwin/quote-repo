@@ -1,7 +1,24 @@
-<p>Description: {{goal.description}}</p>
-<p>Author: {{goal.author}}</p>
-<p>Submittedby: {{goal.submittedby}}</p>
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Jura|Niconne|Russo+One|Viga" rel="stylesheet">
+
+
+
+<!-- Like Section -->
+
+    <button class=" btn btn-info" (click)='voteUp()' type="submit">
+      <span class="glyphicon glyphicon-thumbs-u" aria-hidden="true"></span>
+    
+      <span class="badge">{{upvote}} Likes</span>
+    </button>
+    
+    <button (click)='voteDown()' class="btn btn-info" type="submit">
+    
+      <span class="badge">{{downvote}} Dislikes</span>
+    </button>
+
+<p>{{goal.description}}</p>
+<p>Author:&nbsp; {{goal.author}}</p>
+<p>Submittedby:&nbsp; {{goal.submittedby}}</p>
 <!-- <p>{{author}}</p>
 <p>{{submittedby}}</p> -->
-<p>This quote was generated {{goal.completeDate|dateCount}} days</p>
+<p>This quote was generated {{goal.completeDate|dateCount}} days ago</p>
 <button (click)= 'goalDelete(true)' class="btn btn-outline-danger">Delete quote</button>
